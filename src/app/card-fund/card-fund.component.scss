@@ -1,0 +1,42 @@
+#card-section{
+    padding: 2rem 15rem;
+
+  
+    .card{
+        background-color: #ffff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    border: 0;
+    margin-bottom: 20px;
+    padding: 17px 17px 0px;
+      img {
+        height: 100px;
+      }
+      h3{
+          font-size: 1.2rem;
+          color: #000000;
+      }
+      h6{
+          font-size: 1rem;
+           color: #000000;
+      }
+     .btn-right{
+         padding: 10px;
+          background-color: #4590ec;
+          display: flex;
+          justify-content: space-evenly;
+          a{
+              color: #fff;
+          }
+       
+     }
+     .btn-left{
+         padding: 10px;
+           background-color: #80808026;
+           text-align:center ;
+           a{
+               color: #000000;
+           }
+     }
+    }
+
+}

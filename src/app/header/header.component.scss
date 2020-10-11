@@ -1,0 +1,31 @@
+#header {
+    padding: 0.5rem 15rem;
+    .filter-header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffff;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, .1);
+        // padding: 1rem 0 1rem 1rem;
+    }
+
+    .filter-item {
+        padding: 10px 20px 0px;
+        &:last-child{
+            padding: 0;
+        }
+        .btn {
+            font-size: 1.2rem;
+            padding: 0;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+        }
+
+        .fa-search {
+            background-color: #4590ec;
+            padding: 15px 20px;
+            color: #fff;
+        }
+    }
+}
